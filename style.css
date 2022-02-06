@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    background-image: url("img/background.jpg");
+    height: 100vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    overflow:hidden;
+}
+
+#container{
+    width:400px;
+    margin:80px auto 0 auto;
+}
+
+#playlist{
+    list-style:none; 
+    background-color:#1C1C1C;
+    opacity:0.8;	
+    width:350px;
+    padding:10px 25px;
+    margin-bottom:0;
+    text-align:center
+}
+#playlist li a{
+    display:block;
+    padding-bottom:8px;
+    width:350px;
+    color:#848484;
+    text-decoration:none;
+    border-bottom:1px solid #848484;
+    margin-bottom:5px;
+}
+#playlist li a:hover{
+    color:#fff;
+}
+#playlist .current-song a{
+    color:#fff;
+}
+#audioPlayer{
+    height:30px;
+    width:400px;
+}
+#backgroundPlayer{
+    width:400px;
+    height:30px;
+    background-color:#E5E7E8;
+}
